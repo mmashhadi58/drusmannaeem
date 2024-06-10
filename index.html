@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards & Events</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="https://i.ibb.co/x2dQ792/369637872-10160973225707394-3674206228816049021-n.jpg" alt="Dr. Muhammad Usman Naeem" class="about-image">
+                <div class="text-box">
+                    <h1>About Dr. Muhammad Usman Naeem</h1>
+                    <p>Dr. Muhammad Usman Naeem is a renowned gastroenterologist based in Lahore, known for his exceptional patient satisfaction rate. He holds the following qualifications: MBBS, FCPS.</p>
+                    <p>With expertise in gastroenterology, Dr. Usman Naeem specializes in diagnosing, preventing, and treating diseases related to the digestive system, including the gastrointestinal tract, bile ducts, pancreas, gallbladder, liver, and more.</p>
+                    <p>Over the years, he has served in various gastroenterology departments, successfully treating conditions such as indigestion, colitis, gastroesophageal reflux, and gallbladder issues.</p>
+                    <p>Dr. Usman Naeem adopts both medical and surgical approaches to manage and treat digestive system conditions, providing personalized treatment plans for patients of all age groups.</p>
+                    <p>His extensive professional practice has enhanced his skills across the broad field of gastroenterology, and he is adept at performing advanced gastroenterology procedures.</p>
+                    <p>His dedication to advanced gastroenterology techniques makes him one of the leading certified gastroenterologists in Lahore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
+            <div class="publication">
+                <img src="https://i.ibb.co/qWzkxfV/Antireflux-measures.jpg" alt="Anti Reflux Measures" class="publication-image">
+                <div class="text-content">
+                    <h3>Anti Reflux Measures</h3>
+                    <p>Dr. Muhammad Usman Naeem provides comprehensive guidelines for managing acid reflux. These measures include dietary recommendations, lifestyle modifications, and practical tips to alleviate symptoms and improve digestive health. Following these guidelines can help prevent discomfort and promote overall well-being.</p>
+                </div>
+            </div>
+            <div class="publication">
+                <img src="https://i.ibb.co/h9fQr5n/408184349-10161184772232394-5836765459027904157-n.jpg" alt="Hepatic Encephalopathy" class="publication-image">
+                <div class="text-content">
+                    <h3>Hepatic Encephalopathy: A Real Danger??</h3>
+                    <p>In this insightful article, Dr. Muhammad Usman Naeem delves into the complexities of hepatic encephalopathy, a serious condition associated with chronic liver disease. He explains the causes, symptoms, and treatment options available for managing this life-threatening illness. The article highlights the importance of early diagnosis and ongoing medical care for affected individuals.</p>
+                </div>
+            </div>
+            <div class="publication">
+                <img src="https://i.ibb.co/m9YcmLb/317934407-10160442850882394-8490906851155679324-n.jpg" alt="Liver Involvement in Dengue Fever" class="publication-image">
+                <div class="text-content">
+                    <h3>Liver Involvement in Dengue Fever</h3>
+                    <p>Dr. Muhammad Usman Naeem explores the impact of dengue fever on liver health in this detailed publication. The article addresses how dengue fever affects liver function, the symptoms to watch for, and the necessary diagnostic tests. Dr. Naeem also discusses the management and treatment strategies to mitigate liver complications arising from dengue fever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="awards">
+        <div class="container">
+            <h2>Awards & Events</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/GFLtSVc/242914109-10159577497217394-8976470018960507998-n.jpg" alt="Event 1">
+                        <p><strong>22nd Annual Congress Pakistan Society of Hepatology</strong><br><em>September 23-25, 2022</em><br>Attended and presented at the annual congress.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/KLFkGYs/309044984-10160221262642394-2559003868299444491-n.jpg" alt="Event 2">
+                        <p><strong>American College of Gastroenterology</strong><br><em>April 20, 2023</em><br>Elected as an International Member of the American College of Gastroenterology.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/2kf7Q4Z/347448463-1346138309583957-1147472007946372987-n.jpg" alt="Event 3">
+                        <p><strong>23rd Annual Congress Pakistan Society of Hepatology</strong><br><em>March 10-12, 2023</em><br>Spoke on the latest research in hepatology.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/zFYQGvr/382990866-10161050846987394-6344308363796455778-n.jpg" alt="Event 4">
+                        <p><strong>Ferozsons Laboratories Limited</strong><br><em>June 5, 2023</em><br>Presented new guidelines on the management of hepatic encephalopathy.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/G57cJb2/free-medical-camp.jpg" alt="Event 5">
+                        <p><strong>Free Medical Camp</strong><br><em>July 15, 2023</em><br>Organized and participated in a free medical camp for underprivileged communities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/1nsnhxw/london.jpg" alt="Event 6">
+                        <p><strong>London Trip</strong><br><em>August 10, 2023</em><br>Visited London for a medical conference.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/dQSWM1f/MRCP-London-Degree.jpg" alt="Event 7">
+                        <p><strong>MRCP London Degree</strong><br><em>September 1, 2023</em><br>Received the MRCP London degree.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/JmjDPjT/Receving-Advance-Endoscopy-fellowship.jpg" alt="Event 8">
+                        <p><strong>Receiving Advance Endoscopy Fellowship</strong><br><em>October 5, 2023</em><br>Awarded a fellowship in advanced endoscopy.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/2kG33yg/Receving-award.jpg" alt="Event 9">
+                        <p><strong>Receiving Award</strong><br><em>November 20, 2023</em><br>Honored with an award for contributions to gastroenterology.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <img src="https://i.ibb.co/MSp02mv/UK-Trip-during-Exam.jpg" alt="Event 10">
+                        <p><strong>UK Trip during Exam</strong><br><em>December 15, 2023</em><br>Traveled to the UK for professional exams and training.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container">
+            <h2>News</h2>
+            <div class="news-card">
+                <img src="https://i.ibb.co/BZBDGZj/305991200-10160193857027394-4285097996386925180-n.jpg" alt="News Appearance 1" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 1</h3>
+                    <p>Dr. Usman Naeem discusses the latest advancements in gastroenterology on News Channel 1.</p>
+                    <p><em>January 10, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/kBKvkQ7/306161278-10160193858002394-3755372543945516672-n.jpg" alt="News Appearance 2" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 2</h3>
+                    <p>Dr. Usman Naeem shares insights on digestive health on News Channel 2.</p>
+                    <p><em>February 5, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/mhX1p0S/311687679-10160276759177394-4695946197657367119-n.jpg" alt="News Appearance 3" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 3</h3>
+                    <p>Dr. Usman Naeem appears on News Channel 3 to talk about liver health.</p>
+                    <p><em>March 12, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/xJs4F1F/326076218-2209350209237199-7982667330453485522-n.jpg" alt="News Appearance 4" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 4</h3>
+                    <p>Dr. Usman Naeem discusses the impact of diet on digestive health on News Channel 4.</p>
+                    <p><em>April 22, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/PYf9QqF/347266383-10160861402617394-8062014635625732560-n.jpg" alt="News Appearance 5" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 5</h3>
+                    <p>Dr. Usman Naeem shares insights on managing acid reflux on News Channel 5.</p>
+                    <p><em>May 18, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/BPqtk6S/420184625-942081177278226-6090609160075821171-n.jpg" alt="News Appearance 6" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 6</h3>
+                    <p>Dr. Usman Naeem talks about the importance of early diagnosis of liver diseases on News Channel 6.</p>
+                    <p><em>June 25, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/g73q4pr/438796057-10161400682212394-2683619501787730659-n.jpg" alt="News Appearance 7" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 7</h3>
+                    <p>Dr. Usman Naeem discusses recent developments in gastroenterology on News Channel 7.</p>
+                    <p><em>July 30, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://i.ibb.co/c31vtCV/438829607-10161400682702394-4029251957170087541-n.jpg" alt="News Appearance 8" class="news-image">
+                <div class="news-content">
+                    <h3>News Channel 8</h3>
+                    <p>Dr. Usman Naeem appears on News Channel 8 to talk about innovative treatments in gastroenterology.</p>
+                    <p><em>August 15, 2024</em></p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Dr Usman Naeem's Liver and Endoscopy clinic</strong></p>
+                <p>4.9 - 113 Google reviews</p>
+                <p>Hospital in Lahore</p>
+                <p><strong>Address:</strong> Aadil Hospital, main boulevard, DHA Phase 3, Lahore, Punjab 54600</p>
+                <p><strong>Hours:</strong></p>
+                <ul>
+                    <li>Monday 10 am–9 pm</li>
+                    <li>Tuesday 10 am–9 pm</li>
+                    <li>Wednesday 10 am–9 pm</li>
+                    <li>Thursday 10 am–9 pm</li>
+                    <li>Friday 10 am–9 pm</li>
+                    <li>Saturday 10 am–9 pm</li>
+                    <li>Sunday Closed (Eid al-Adha)</li>
+                </ul>
+                <p><strong>Phone:</strong> 0311 4444600</p>
+                <div id="map" style="height: 400px;"></div>
+                <p>If you have any questions or would like to schedule an appointment, please don't hesitate to call us or visit our clinic. We look forward to assisting you with your healthcare needs.</p>
+                <a href="tel:03114444600" class="call-to-action">Call Now</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dr. Muhammad Usman Naeem. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div id="popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
